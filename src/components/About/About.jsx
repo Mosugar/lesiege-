@@ -264,7 +264,7 @@ const About = () => {
             <div className="grid lg:grid-cols-5">
               
               {/* Map - Takes 3 columns */}
-              <div className="lg:col-span-3 relative h-96 lg:h-auto min-h-[500px]">
+              {/* <div className="lg:col-span-3 relative h-96 lg:h-auto min-h-[500px]">
                 <iframe 
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.442603512447!2d-6.595275024274479!3d34.26276407307847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7597efa83cacf%3A0x744818700c59461!2sLe%20Si%C3%A8ge%20%7C%20Salon%20de%20coiffure!5e0!3m2!1sen!2sma!4v1759200648461!5m2!1sen!2sma"
                   width="100%"
@@ -276,10 +276,10 @@ const About = () => {
                   className="absolute inset-0 brightness-90 contrast-110 saturate-50 hover:saturate-100 hover:brightness-100 transition-all duration-500"
                 ></iframe>
                 <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent pointer-events-none"></div>
-              </div>
+              </div> */}
 
               {/* Info - Takes 2 columns */}
-              <div className="lg:col-span-2 p-8 lg:p-10 space-y-8 bg-gradient-to-br from-gray-900/90 to-black/90">
+              {/* <div className="lg:col-span-2 p-8 lg:p-10 space-y-8 bg-gradient-to-br from-gray-900/90 to-black/90">
                 <div>
                   <h3 className="text-4xl font-bold mb-4 font-['Playfair_Display']">
                     <span className="gradient-gold">Visitez-Nous</span>
@@ -287,10 +287,10 @@ const About = () => {
                   <p className="text-gray-300 leading-relaxed">
                     Découvrez notre salon au cœur de Kénitra, un espace pensé pour votre confort et votre bien-être
                   </p>
-                </div>
+                </div> */}
 
                 {/* Address Card */}
-                <div className="group relative glass-dark rounded-2xl p-6 border border-[#D4AF37]/30 hover:border-[#D4AF37]/50 transition-all duration-300 backdrop-blur-xl">
+                {/* <div className="group relative glass-dark rounded-2xl p-6 border border-[#D4AF37]/30 hover:border-[#D4AF37]/50 transition-all duration-300 backdrop-blur-xl">
                   <div className="flex items-start space-x-4">
                     <div className="w-14 h-14 bg-gradient-to-br from-[#D4AF37] to-[#E5C965] rounded-xl flex items-center justify-center flex-shrink-0 transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                       <MapPin className="w-7 h-7 text-black" />
@@ -304,10 +304,10 @@ const About = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Hours Card */}
-                <div className="group relative glass-dark rounded-2xl p-6 border border-[#D4AF37]/30 hover:border-[#D4AF37]/50 transition-all duration-300 backdrop-blur-xl">
+                {/* <div className="group relative glass-dark rounded-2xl p-6 border border-[#D4AF37]/30 hover:border-[#D4AF37]/50 transition-all duration-300 backdrop-blur-xl">
                   <div className="flex items-start space-x-4">
                     <div className="w-14 h-14 bg-gradient-to-br from-[#E5C965] to-[#D4AF37] rounded-xl flex items-center justify-center flex-shrink-0 transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                       <Clock className="w-7 h-7 text-black" />
@@ -318,10 +318,10 @@ const About = () => {
                       <p className="text-[#D4AF37] font-bold text-lg">10h00 - 22h00</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Action Buttons */}
-                <div className="flex flex-col gap-4 pt-2">
+                {/* <div className="flex flex-col gap-4 pt-2">
                   <a
                     href="tel:+212XXXXXXXXX"
                     className="group relative bg-gradient-to-r from-[#D4AF37] to-[#E5C965] hover:from-[#E5C965] hover:to-[#D4AF37] text-black px-6 py-4 rounded-xl font-bold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-[#D4AF37]/50 flex items-center justify-center space-x-3 overflow-hidden"
@@ -340,8 +340,8 @@ const About = () => {
                     <Navigation className="w-5 h-5" />
                     <span>Obtenir l&apos;Itinéraire</span>
                   </a>
-                </div>
-              </div>
+                </div> */}
+              {/* </div> */}
             </div>
           </div>
         </div>
